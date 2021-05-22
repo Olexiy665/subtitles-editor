@@ -1,0 +1,26 @@
+.SubtitleCard {
+    width: 100%;
+    margin-bottom: 20px;
+    &>div {
+        background-color: #424242;
+        padding: 20px;
+    }
+}
+.Text {
+    font-size: 14px;
+    color: #fff;
+}
+
+.CardBottom {
+    display: flex;
+    justify-content: space-between;
+    span {
+        font-size: 12px;
+    }
+}
+.StartTime {
+    color: rgb(183, 223, 185);
+}
+.EndTime {
+    color: rgb(250, 179, 174);
+}
