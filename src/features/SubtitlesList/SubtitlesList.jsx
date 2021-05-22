@@ -1,10 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
-import styles from "./SubtitleList.module.scss";
 
-import { ListItem, List } from "@material-ui/core";
+import { List } from "@material-ui/core";
 import { SUBTITLES } from "../../constants/subtitles";
 import SubtitleCard from "./components/SubtitleCard";
+
+import styles from "./SubtitleList.module.scss";
 
 const SubtitlesList = () => (
   <div className={styles.SubtitlesList}>
