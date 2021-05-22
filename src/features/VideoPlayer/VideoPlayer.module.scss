@@ -33,7 +33,10 @@
   justify-content: space-between;
 }
 .PlayButton {
-  background-color: #fff;
+  background-color: #fff !important;
+  &:focus {
+    background-color: #fff; 
+  }
 }
 .SliderWrapper {
   width: calc(100% - 160px);
