@@ -36,3 +36,7 @@
 .PlayButton {
     background-color: $text-white-main;
 }
+.SliderWrapper {
+    width: calc(100% - 70px);
+    margin-left: auto;
+}
