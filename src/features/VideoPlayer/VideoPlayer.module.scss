@@ -1,0 +1,42 @@
+@import '../../scss/colors';
+.VideoPlayerWrapper {
+    width: 100%;
+    color: $text-white-main;
+    height: 80%;
+}
+.VideoWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    video {
+        position: absolute;
+        inset: 0px;
+        object-fit: cover;
+        margin: auto;
+        max-width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+}
+.VideoControl {
+    width: 80%;
+    position: absolute;
+    bottom: -60px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0 20px;
+    background-color: rgba($text-white-main, 0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.PlayButton {
+    background-color: $text-white-main;
+}
+.SliderWrapper {
+    width: calc(100% - 70px);
+    margin-left: auto;
+}
