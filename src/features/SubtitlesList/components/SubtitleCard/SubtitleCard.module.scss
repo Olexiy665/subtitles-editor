@@ -9,9 +9,12 @@
   &:hover,
   &:focus {
     outline: none;
+    
+  }
+  &:hover {
     & > div {
-      border: 1px solid rgba(#90caf9, 0.4);
-    }
+        border: 1px solid rgba(#90caf9, 0.4);
+      }
   }
 }
 .ActiveCard {
