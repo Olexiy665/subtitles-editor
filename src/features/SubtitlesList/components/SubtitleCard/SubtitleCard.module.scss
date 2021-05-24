@@ -1,26 +1,39 @@
 .SubtitleCard {
-    width: 100%;
-    margin-bottom: 20px;
-    &>div {
-        background-color: #424242;
-        padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  & > div {
+    background-color: #424242;
+    padding: 20px;
+  }
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    outline: none;
+    & > div {
+      border: 1px solid rgba(#90caf9, 0.4);
     }
+  }
+}
+.ActiveCard {
+  & > div {
+    border: 1px solid #90caf9;
+  }
 }
 .Text {
-    font-size: 14px;
-    color: #fff;
+  font-size: 14px;
+  color: #fff;
 }
 
 .CardBottom {
-    display: flex;
-    justify-content: space-between;
-    span {
-        font-size: 12px;
-    }
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-size: 12px;
+  }
 }
 .StartTime {
-    color: rgb(183, 223, 185);
+  color: rgb(183, 223, 185);
 }
 .EndTime {
-    color: rgb(250, 179, 174);
+  color: rgb(250, 179, 174);
 }

@@ -10,10 +10,11 @@ import mainVideo from "../../assets/videos/video.mp4";
 import { updateDuration, updateCurrentTime } from "./videoPlayerSlice";
 
 
+
 export const VideoPlayer = () => {
   const [isPlaying, setVideoIsPlaying] = useState(false);
   const [sliderValue, setSliderValue] = useState(0);
-
+  
   const videoRef = useRef(null);
   const dispatch = useDispatch();
   const videoDuration = useSelector((state) => state.player.videoDuration);
@@ -32,7 +33,6 @@ export const VideoPlayer = () => {
     if (Math.abs(storeCurrentTime - currentTime) > 0.5) {
       dispatch(updateCurrentTime({ currentTime }));
     }
-
   };
 
   const handleSliderChange = (e, nextValue) => {
@@ -48,6 +48,8 @@ export const VideoPlayer = () => {
       if (!Number.isNaN(duration)) {
         dispatch(updateDuration({ videoDuration: duration }));
       }
+      
+      
     }
   }, [videoRef.current]);
 
@@ -76,7 +78,7 @@ export const VideoPlayer = () => {
         <video
           onPlay={onPlayHandle}
           onClick={playVideoToggle}
-         
+          id="global-player"
           onPauseCapture={onPauseHandle}
           onTimeUpdate={handleTimeUpdate}
           ref={videoRef}
