@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/subtitles-editor/static/css/main.099ba7f1.chunk.css",
+    "main.css": "/subtitles-editor/static/css/main.eaa65951.chunk.css",
     "main.js": "/subtitles-editor/static/js/main.2ebae60c.chunk.js",
     "main.js.map": "/subtitles-editor/static/js/main.2ebae60c.chunk.js.map",
     "runtime-main.js": "/subtitles-editor/static/js/runtime-main.c43b15bf.js",
@@ -10,14 +10,14 @@
     "static/js/3.43135bb9.chunk.js": "/subtitles-editor/static/js/3.43135bb9.chunk.js",
     "static/js/3.43135bb9.chunk.js.map": "/subtitles-editor/static/js/3.43135bb9.chunk.js.map",
     "index.html": "/subtitles-editor/index.html",
-    "static/css/main.099ba7f1.chunk.css.map": "/subtitles-editor/static/css/main.099ba7f1.chunk.css.map",
+    "static/css/main.eaa65951.chunk.css.map": "/subtitles-editor/static/css/main.eaa65951.chunk.css.map",
     "static/js/2.48f0d185.chunk.js.LICENSE.txt": "/subtitles-editor/static/js/2.48f0d185.chunk.js.LICENSE.txt",
     "static/media/video.8c727da6.mp4": "/subtitles-editor/static/media/video.8c727da6.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c43b15bf.js",
     "static/js/2.48f0d185.chunk.js",
-    "static/css/main.099ba7f1.chunk.css",
+    "static/css/main.eaa65951.chunk.css",
     "static/js/main.2ebae60c.chunk.js"
   ]
 }
